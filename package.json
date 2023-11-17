@@ -1,5 +1,11 @@
 {
   "name": "myapp",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
