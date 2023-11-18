@@ -1,25 +1,14 @@
-import React from "react";
-import Navbar from "./componends/Navbar/Navbar";
-
-
-
+import { BrowserRouter } from "react-router-dom";
+import AddBook from "./componends/Main/Main";
+import Main from "./componends/Main/Main";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
-    </div>
+    <BrowserRouter>
+    <Main/>
+
+    </BrowserRouter>
   );
 }
-
-
-
-
-
-
-
-
-
-
 
 export default App;
