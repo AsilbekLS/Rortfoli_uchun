@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended: false}))
 
 app.use(cors())
 
-app.use('/api/travels', require('./routes/travelRoutes'))
+app.use('/api/Mebel', require('./routes/travelRoutes'))
 app.use('/api/buscet', require('./routes/Route2'))
 app.use('/api/user', require('./routes/Route3'))
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from "react-router-dom"
 
-const AddBook = () => {
+const AddMebel = () => {
   const [title, setTitle] = useState('')
   const [descount, setdescount] = useState('')
   const [image, setImage] = useState('')
@@ -60,4 +60,4 @@ const AddBook = () => {
   )
 }
 
-export default AddBook
+export default AddMebel
